@@ -1,6 +1,8 @@
 print(" ")
+#wstęp
 print("Czy jesteś idiotą?")
 print(" ")
+#Czy umiesz dotknąć łokcia językiem? 
 print("Czy umiesz dotknąć łokcia językiem?")
 print("A - tak     B - nie")
 
@@ -17,6 +19,7 @@ if odp == "a":
 if odp == "b":
   sum = sum + 1
 
+#Czy masz płatną licencję na winrara?
 print("Czy masz płatną licencję na winrara?")
 print("A - tak     B - nie")
 
@@ -32,6 +35,7 @@ if odp == "a":
 if odp == "b":
   sum = sum + 1
 
+#Ile to 1:0?
 print("Ile to 1:0?")
 print("A - 1,45546838457     B - nie da się")
 
