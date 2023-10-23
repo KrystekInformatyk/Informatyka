@@ -3,3 +3,6 @@ Python - Nowy : 2 Instrukcje Warunkowe
 
 25.09.2023
 Python - Nowy : Rozszerzenie skrypt 3 i 4
+
+23.10.2023 - 27.11.2023
+Projekt - gra RPG
