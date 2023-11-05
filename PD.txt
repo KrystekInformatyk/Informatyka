@@ -10,3 +10,9 @@ Projekt - gra RPG
 
 23.10.2023
 Kalkulator brył
+
+30.10.2023
+Napisać program na nww i nwd ze zrozumieniem i wrzucić na github
+
+03.11.2023
+4 zadania z lamby
