@@ -17,8 +17,7 @@ from romances.vampire_x_magician import VampireXMagician
 from artifacts.ancient_sword import AncientSword
 from artifacts.healing_amulet import HealingAmulet
 import os
-
-# =======================================================================
+import sys
 
 def one_on_one_fight(hero):
     opponent = Goblin()
@@ -118,6 +117,8 @@ def manage_artifacts(character):
     else:
         print("Invalid choice. Returning to main menu.")
 
+def clear_screen():
+    print("\n" * 100)
 
 def main_game():
     print("Select a Character Class")
@@ -140,7 +141,7 @@ def main_game():
         my_hero = Mage()
 
     while my_hero.is_alive():
-        os.system('clear')
+        clear_screen()
         print("\nMain Menu")
         print("a - Adventure")
         print("v - Visit a location")
@@ -166,7 +167,7 @@ def main_game():
             my_hero.total_rest()
         elif choice == 'e':
             print("Thank you for playing!")
-            break
+            sys.exit()
         else:
             print("Invalid choice. Please choose again.")
 

@@ -4,6 +4,7 @@ from random import randint
 class Goblin(BasicCharacter):
     def __init__(self) -> None:
         super().__init__()
+        self._name = "goblin"
         self._basic_attack = randint(1, 10)
         self._max_hp = 90
         self._hp = 90

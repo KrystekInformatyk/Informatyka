@@ -3,6 +3,7 @@ from characters.basic_character import BasicCharacter
 class Vampire(BasicCharacter):
     def __init__(self):
         super().__init__()
+        self._name = "vampire"
         self._basic_attack += 15
         self._max_hp = 120
         self._hp = 120
@@ -16,6 +17,9 @@ class Vampire(BasicCharacter):
         print("Vampire bites draining life!")
         self._hp += damage // 2
         return damage
+
+    def fight(self):
+        return self.bite(None)  # Assuming fight targets an opponent, replace None with actual target if needed
 
     def inf(self):
         print("="*30)

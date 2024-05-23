@@ -6,7 +6,7 @@ class HealingAmulet(BasicArtifact):
 
     def activate(self, character):
         if hasattr(character, 'hp'):
-            character.hp += self.power
-            print(f"{self.name} activated by {character.name}. Restores {self.power} health points.")
+            character._hp += self.power
+            print(f"{self.name} activated by {character._name}. Restores {self.power} health points.")
         else:
-            print(f"{self.name} cannot be used by {character.name} as they lack 'hp' attribute.")
+            print(f"{self.name} cannot be used by {character._name} as they lack 'hp' attribute.")

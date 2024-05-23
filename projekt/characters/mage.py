@@ -4,6 +4,7 @@ from characters.elemental_magic_book.elemental_magic_book import ElementalSpellB
 class Mage(BasicCharacter):
     def __init__(self):
         super().__init__()
+        self._name = "mage"
         self._basic_attack += 10
         self._max_hp = 100
         self._hp = 100
@@ -34,6 +35,6 @@ class Mage(BasicCharacter):
                 return self._spell_book.choose_spell(self)
             elif inp == 'q':
                 print("Exiting fight.")
-                break
+                return 10000
             else:
                 print("Invalid choice. Please choose again.")
