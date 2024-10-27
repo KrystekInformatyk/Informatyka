@@ -1,0 +1,16 @@
+.section-4 {
+    border-top: $font3 solid $color2;
+    border-left: $font3 solid $color2;
+    border-right: $font3 solid $color2;
+    padding: $font7 ;  
+    background-color: $color4;
+    display: flex;
+    @include center
+    }
+
+.section-4-ustawienia{
+    border: $font3 solid rgb(26, 189, 121);
+    width: 400px; 
+    height: auto;
+    padding: 20px;
+}
