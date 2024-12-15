@@ -1,0 +1,13 @@
+.section-1 {
+    background-color: $color4;
+    padding: $font9;
+    border-left: $font3 solid $color2;
+    border-right: $font3 solid $color2;
+    &--text{
+        @include center;
+        display: flex;
+}
+}
+h1{
+    padding-bottom: 20px;
+}

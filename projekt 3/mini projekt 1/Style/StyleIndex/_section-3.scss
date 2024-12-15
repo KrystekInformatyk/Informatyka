@@ -1,0 +1,27 @@
+.section-3 {
+    border-left: $font3 solid $color2;
+    border-right: $font3 solid $color2;
+    border-bottom: $font3 solid $color2;
+    padding: $font7 ;  
+    background-color: $color4;
+    }
+
+.section-3-ustawienia{
+    width: auto;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+
+.section-3-ustawienia--img{
+    width: 500px;
+        img {
+          width: 100%;
+        }
+}
+
+.section-3-ustawienia--text{
+    width: 500px;
+}
